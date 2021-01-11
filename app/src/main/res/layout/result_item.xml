@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="8dp"
+    android:background="@drawable/button_back_black_stroke"
+    android:orientation="vertical"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:id="@+id/result_icon"
+        android:background="@drawable/circle_status_3"
+        android:layout_height="60dp"
+        android:contentDescription="@string/something" />
+
+    <TextView
+        android:id="@+id/point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="4dp"
+        android:textColor="@color/red" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/green"
+        android:id="@+id/result_order"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
